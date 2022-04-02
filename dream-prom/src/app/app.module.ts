@@ -11,6 +11,7 @@ import { RegisterPageModule } from './register-page/register-page.module';
 import { SharedElementsModule } from './shared-elements/shared-elements.module';
 import { CreatePageModule } from './create-page/create-page.module';
 import { EditPageModule } from './edit-page/edit-page.module';
+import { SearchPageModule } from './search-page/search-page.module';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { EditPageModule } from './edit-page/edit-page.module';
     CatalogPageModule,
     ProfilePageModule,
     CreatePageModule,
-    EditPageModule
+    EditPageModule, 
+    SearchPageModule
   ],
   providers: [],
   bootstrap: [AppComponent]
