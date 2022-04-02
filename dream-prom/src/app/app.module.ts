@@ -10,6 +10,7 @@ import { ProfilePageModule } from './profile-page/profile-page.module';
 import { RegisterPageModule } from './register-page/register-page.module';
 import { SharedElementsModule } from './shared-elements/shared-elements.module';
 import { CreatePageModule } from './create-page/create-page.module';
+import { EditPageModule } from './edit-page/edit-page.module';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { CreatePageModule } from './create-page/create-page.module';
     SharedElementsModule,
     CatalogPageModule,
     ProfilePageModule,
-    CreatePageModule
+    CreatePageModule,
+    EditPageModule
   ],
   providers: [],
   bootstrap: [AppComponent]
