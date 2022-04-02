@@ -5,6 +5,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomePageModule } from './home-page/home-page.module';
 import { LoginPageModule } from './login-page/login-page.module';
+import { RegisterPageModule } from './register-page/register-page.module';
+import { SharedElementsModule } from './shared-elements/shared-elements.module';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { LoginPageModule } from './login-page/login-page.module';
     BrowserModule,
     AppRoutingModule,
     HomePageModule,
-    LoginPageModule
+    LoginPageModule,
+    RegisterPageModule,
+    SharedElementsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
